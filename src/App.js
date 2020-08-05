@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Button from 'react-bootstrap/Button';
 
 function App() {
   return (
     <div className="App">
       <p>Testing</p>
-      <button type="button" className="btn btn-primary">Primary</button>
+      <Button variant="primary">Primary</Button>
     </div>
   );
 }
