@@ -18,6 +18,7 @@ class App extends React.Component {
       <div className="App">
         <h1>Hackathon test Project by nerdy Hoomans</h1>
         <br />
+        <p>Change the color of the button by choosing a template in the dropdown!</p>
         <DropdownButton
           title="Set Button Color "
           onSelect={this.handleSelect}
