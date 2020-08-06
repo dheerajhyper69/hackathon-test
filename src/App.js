@@ -5,8 +5,8 @@ import Button from 'react-bootstrap/Button';
 function App() {
   return (
     <div className="App">
-      <p>Testing</p>
-      <Button variant="primary">Primary</Button>
+      <h1>Hackathon test Project</h1>
+      <Button variant="primary" onClick={() => alert('Cool JavaScript works!')}>Button</Button>
     </div>
   );
 }
