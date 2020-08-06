@@ -16,7 +16,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Hackathon test Project by nerdy Hoomans</h1>
+        <h1>Hackathon test Project by NERDS</h1>
         <br />
         <p>Change the color of the button by choosing a template in the dropdown!</p>
         <DropdownButton
