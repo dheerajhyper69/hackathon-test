@@ -10,9 +10,7 @@ class App extends React.Component {
   }
 
   handleSelect = (e) => {
-    this.setState({
-      variant: e
-    });
+    this.setState({ variant: e });
   }
 
   render() {
